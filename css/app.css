@@ -1,0 +1,158 @@
+body, h1, h2, h3, h4, h5, p {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.hero {
+	background-image: url("../images/hero-img.png");
+	background-color: #FAB547;
+	background-size: cover;
+	background-position: bottom center;
+	color: #fff;
+	padding-top: 8rem;
+	padding-bottom: 20rem;
+}
+
+.hero-logo {
+	width: 200px;
+	margin-bottom: 50px;
+}
+
+
+.hero-tagline {
+	margin-bottom: 5rem;
+}
+
+.hero-badges {
+	width: 200px;
+}
+
+.features {
+	padding-top: 4rem;
+	padding-bottom: 3rem;
+}
+
+.img-features {
+	width: 70%;
+}
+
+.features-title {
+	padding-top: 40%;
+}
+
+.others {
+	margin-top: 3rem;
+	margin-bottom: 3rem; 
+}
+
+.profile-card {
+	box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+	padding-bottom: 1rem;
+	border-radius: 6px;
+	margin-top: 4rem;
+}
+
+.profile-cover {
+	height: 12rem;
+	background-image: url("../images/card-cover-sample.png");
+	background-size: cover;
+	width: 100%;
+	position: relative;
+}
+
+.profile-name {
+	margin-bottom: 1.2rem;
+	margin-top: 3rem;
+}
+
+.profile-location-img {
+	padding-left: 0.4rem;
+	padding-right: 0.4rem;
+}
+
+.profile-img-wrap {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	left:0;
+	text-align: center;
+}
+
+.profile-img {
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+	background-image: url("../images/card-profile-sample.png");
+	background-size: cover;
+	display: inline-block;
+	margin-bottom: -40px;
+}
+
+h3 {
+	text-transform: uppercase;
+}
+
+footer {
+	color: #fff;
+	background-color: #FAB547;
+	margin-top: 3rem;
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+}
+
+.footer-social {
+	width: 48px;
+	height: 48px;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+}
+
+
+@media screen and (max-width: 39.9375em) {
+
+	.hero {
+		padding-top: 3rem;
+	}
+
+	.hero-tagline {
+		margin-bottom: 2rem;
+	}
+
+	.hero-badges {
+		width: 140px;
+	}
+
+	.hero-device {
+		margin-top: 2rem;
+	}
+
+	.features-title {
+		padding-top: 2rem;
+	}
+
+	.others-mobile-wrap {
+				overflow-x: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
+	}
+	}
+
+	.others-mobile {
+		width: 980px;
+		margin-bottom: 3rem;
+		position: relative;
+}
+
+	.others-mobile .profile-card {
+		width: 280px;
+		float: left;
+		margin-left: 1rem;
+		margin-right: 1rem;
+
+	}
+
+	.others-mobile:after {
+		content: '';
+    display: block;
+    clear: both;
+	}
+
+}
